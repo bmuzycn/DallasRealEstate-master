@@ -17,7 +17,7 @@ class NetworkHelper {
 
         let headers = [
             "x-rapidapi-host": "realtor.p.rapidapi.com",
-            "x-rapidapi-key": "4a9c9d56e1mshf70105ec6b8f980p14fe1fjsn40afebe206bb"
+            "x-rapidapi-key": ""
         ]
 
         let request = NSMutableURLRequest(url: NSURL(string: "https://realtor.p.rapidapi.com/properties/list-for-sale?sort=relevance&radius=10&city=Plano&offset=0&limit=20&state_code=TX")! as URL, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 10.0)
